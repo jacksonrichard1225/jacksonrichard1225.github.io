@@ -23,6 +23,10 @@
         .gm-style img {
             max-width: none;
         }
+        
+        .mySlides {
+            display: none;
+        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -521,7 +525,27 @@
             </div>
             <div>
                 <div class="htmlwidget-image">
-                    <img src="Ahellum - Klær i Brandbu og Hadeland_files/fashion.png" alt="">
+                    <img class="mySlides" src="Ahellum - Klær i Brandbu og Hadeland_files/fashion.png" alt="" style="width:100%">
+                    <img class="mySlides" src="Ahellum - Klær i Brandbu og Hadeland_files/slider2.png" alt="" style="width:100%">
+
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {
+                                myIndex = 1
+                            }
+                            x[myIndex - 1].style.display = "block";
+                            setTimeout(carousel, 9000); // Change image every 2 seconds
+                        }
+                    </script>
                     <div class="htmlwidget-textcontainer">
                         <div class="htmlwidget-title">Velkommen til Havfruens Hj&oslash;rne</div>
                         <div class="htmlwidget-body">Eksklusive merkekl&aelig;r for dame</div>
@@ -560,21 +584,21 @@
                                                     <a href="http://ahellum.no/herre-gensere-cardigans">Gensere</a>
                                                 </div>
                                                 <div class="catoverlay1">&nbsp;</div>
-                                                <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/0085740_20170707174703679_fv_pimcore_80051_model%2520v3.png" alt="">
+                                                <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/template-1.png" alt="">
                                             </div>
                                             <div class="photos-container">
                                                 <div class="category-caption">
                                                     <a href="http://ahellum.no/herre-bukser">Bukser</a>
                                                 </div>
                                                 <div class="catoverlay2">&nbsp;</div>
-                                                <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/0004751_hansenjacob-5-pkt-denim-classic.png" alt="">
+                                                <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/template-2.png" alt="">
                                             </div>
                                             <div class="photos-container">
                                                 <div class="category-caption">
                                                     <a href="http://ahellum.no/Skjorter">Skjorter</a>
                                                 </div>
                                                 <div class="catoverlay3">&nbsp;</div>
-                                                <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/0004513_gant-o2-tech-prep-pique-fit-bd.png" alt="">
+                                                <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/template-3.png" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -586,7 +610,7 @@
                                 </div>
                                 <div>
                                     <div class="htmlwidget-singleimage">
-                                        <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/161208_gant_fw17_10_005.jpg" alt="">
+                                        <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/slider7.png" alt="">
                                         <div class="htmlwidget-textcontainer-singleimg">
                                             <div class="htmlwidget-title-singleimg">
                                                 <a href="http://ahellum.no/gant">GANT</a>
@@ -594,7 +618,7 @@
                                         </div>
                                     </div>
                                     <div class="htmlwidget-singleimage">
-                                        <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/Superdry%2520-%2520Content-AW16-Campaign-Images_FBTW4.jpg" alt="">
+                                        <img src="Ahellum%20-%20Kl%C3%A6r%20i%20Brandbu%20og%20Hadeland_files/slider5.png" alt="">
                                         <div class="htmlwidget-textcontainer-singleimg">
                                             <div class="htmlwidget-title-singleimg">SUPERDRY</div>
                                             <div class="htmlwidget-body-singleimg">Hadelands største utvalg i Superdry klær</div>
