@@ -12326,13 +12326,13 @@ p .search-term-highlighter,
 }
 
 .htmlwidget-singleimage>img {
-    max-width: 200%;
+    max-width: 100%;
 }
 
 @media (max-width: 600px) {
     .htmlwidget-singleimage>img {
         width: 100%;
-        height: auto;
+        height: 350px;
     }
 }
 
@@ -12407,7 +12407,6 @@ p .search-term-highlighter,
 .htmlwidget-image {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -12433,7 +12432,7 @@ p .search-term-highlighter,
 @media (max-width: 600px) {
     .htmlwidget-image>img {
         width: 100%;
-        height: auto;
+        height: 350px;
     }
 }
 
