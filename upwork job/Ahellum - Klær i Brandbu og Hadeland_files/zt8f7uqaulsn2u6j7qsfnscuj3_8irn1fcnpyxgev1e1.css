@@ -12331,8 +12331,8 @@ p .search-term-highlighter,
 
 @media (max-width: 600px) {
     .htmlwidget-singleimage>img {
-        widows: 900px;
-        height: 300px;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -12432,9 +12432,8 @@ p .search-term-highlighter,
 
 @media (max-width: 600px) {
     .htmlwidget-image>img {
-        max-width: 260%;
-        width: 900px;
-        height: 350px;
+        width: 100%;
+        height: auto;
     }
 }
 
