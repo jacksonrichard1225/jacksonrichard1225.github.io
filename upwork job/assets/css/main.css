@@ -2271,7 +2271,7 @@ button.alt:hover,
     /* Header */
     #header {
         padding: 6em 20px 6em 20px;
-        height: 350px;
+        height: 350px !important;
     }
     #header>header {
         padding: 0 1em 0 1em;
