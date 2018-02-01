@@ -2036,8 +2036,8 @@ button.alt:hover,
     position: relative;
     margin-top: 0;
     background-image: url("https://retailhub.blob.core.windows.net/downloads/Herreavdelingen-Diego_5537_54_Quer_comp2_1.jpg");
-    background-size: auto, cover;
-    background-position: top left, center center;
+    background-size: cover, cover;
+    background-position: center center, center center;
     background-repeat: repeat, no-repeat;
     padding: 14em 0 14em 0;
     text-align: center;
