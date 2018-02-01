@@ -203,30 +203,6 @@
 
 /* ============MAIN BANNER WITH TEXTS ================ */
 
-.htmlwidget-image {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-@media (min-width: 600px) {
-    .htmlwidget-image {
-        position: relative;
-        margin-bottom: 40px;
-    }
-}
-
-.htmlwidget-image>img {
-    max-width: 260%;
-}
-
 .htmlwidget-textcontainer {
     position: absolute;
     color: #7a7a7a;

@@ -12427,7 +12427,7 @@ p .search-term-highlighter,
 
 .htmlwidget-image>img {
     max-width: 260%;
-    /* width: 100%; */
+    width: 100%;
 }
 
 @media (max-width: 600px) {
