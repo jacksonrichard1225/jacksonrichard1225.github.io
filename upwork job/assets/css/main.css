@@ -2006,6 +2006,45 @@ button.alt:hover,
     color: #fff;
 }
 
+#header1 {
+    position: relative;
+    margin-top: 0;
+    background-image: url("images/header.jpg"), url("../../images/slider7.jpg");
+    background-size: auto, cover;
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    padding: 14em 0 14em 0;
+    text-align: center;
+    height: 494px;
+    color: #fff;
+}
+
+#header2 {
+    position: relative;
+    margin-top: 0;
+    background-image: url("images/header.jpg"), url("../../images/slider5.jpg");
+    background-size: auto, cover;
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    padding: 14em 0 14em 0;
+    text-align: center;
+    height: 494px;
+    color: #fff;
+}
+
+#header3 {
+    position: relative;
+    margin-top: 0;
+    background-image: url("https://retailhub.blob.core.windows.net/downloads/Herreavdelingen-Diego_5537_54_Quer_comp2_1.jpg");
+    background-size: auto, cover;
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    padding: 14em 0 14em 0;
+    text-align: center;
+    height: 494px;
+    color: #fff;
+}
+
 #header header h1 {
     font-size: 2.25em;
     line-height: 1.25em;
@@ -2270,6 +2309,18 @@ button.alt:hover,
     }
     /* Header */
     #header {
+        padding: 6em 20px 6em 20px;
+        height: 350px !important;
+    }
+    #header1 {
+        padding: 6em 20px 6em 20px;
+        height: 350px !important;
+    }
+    #header2 {
+        padding: 6em 20px 6em 20px;
+        height: 350px !important;
+    }
+    #header3 {
         padding: 6em 20px 6em 20px;
         height: 350px !important;
     }
