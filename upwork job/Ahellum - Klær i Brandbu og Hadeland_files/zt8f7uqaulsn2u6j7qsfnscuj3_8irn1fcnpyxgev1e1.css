@@ -12407,7 +12407,7 @@ p .search-term-highlighter,
 .htmlwidget-image {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    /* display: flex; */
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -12427,12 +12427,11 @@ p .search-term-highlighter,
 
 .htmlwidget-image>img {
     max-width: 260%;
-    width: 100%;
+    /* width: 100%; */
 }
 
 @media (max-width: 600px) {
     .htmlwidget-image>img {
-        width: 100%;
         height: 350px;
     }
 }
